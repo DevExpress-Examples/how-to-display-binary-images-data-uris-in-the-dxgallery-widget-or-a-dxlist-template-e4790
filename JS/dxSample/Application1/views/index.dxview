@@ -1,0 +1,12 @@
+<div data-options="dxView : { name: 'Index', title: 'Home' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div data-bind="dxGallery:{dataSource: galleryData, width: 150, height: 100}" style="text-align:center" ></div>
+        <div data-bind="dxList: { dataSource: dSource }">
+            <div data-options="dxTemplate : { name: 'item' } " >
+                <img style="vertical-align: middle;" data-bind="attr: { src: imgContent }" />
+                <span data-bind="text: ID"></span>
+                <span data-bind="text: Name"></span>
+            </div>
+        </div>       
+    </div>
+</div>
