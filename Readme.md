@@ -1,6 +1,6 @@
 # How to display binary images (data URIs) in the dxGallery widget or a dxList template
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4790)**
+**[[Run Online]](https://codecentral.devexpress.com/e4790/)**
 <!-- run online end -->
 
 
