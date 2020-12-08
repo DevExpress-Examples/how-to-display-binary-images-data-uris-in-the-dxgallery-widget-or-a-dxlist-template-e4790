@@ -1,7 +1,4 @@
 # How to display binary images (data URIs) in the dxGallery widget or a dxList template
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e4790/)**
-<!-- run online end -->
 
 
 <p>To display binary images in the dxGallery widget or a dxList item template, encode your image byte array in base64 and use the <a href="http://en.wikipedia.org/wiki/Data_URI_scheme"><u>Data URI scheme</u></a>. In this case, all the processing will be done on the client side and your image elements inside the dxList template will look as follows:<br />
